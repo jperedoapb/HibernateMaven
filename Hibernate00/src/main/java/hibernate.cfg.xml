@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <!-- Location  B.D. -->
+        <property name="connection.url">jdbc:mysql://localhost:3306/test_bd</property>
+        <!-- User the B.D. -->
+        <property name="connection.username">usuario</property>
+        <!-- Pass the B.D. -->
+        <property name="connection.password">password/clave</property>
+
+        <!-- Dialect SQL -->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!--Show in console operations SQL -->
+        <property name="show_sql">true</property>
+         
+        <!-- Use XML-based mapping-->	
+        
+        <!-- Use mapping based on annotations -->
+        
+    </session-factory>
+</hibernate-configuration>
