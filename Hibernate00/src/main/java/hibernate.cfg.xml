@@ -17,7 +17,7 @@
         <property name="show_sql">true</property>
          
         <!-- Use XML-based mapping-->	
-        
+        <mapping resource="org/apb/pojo/Tramite.hbm.xml"
         <!-- Use mapping based on annotations -->
         
     </session-factory>
