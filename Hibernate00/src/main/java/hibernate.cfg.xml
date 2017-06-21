@@ -6,9 +6,9 @@
         <!-- Location  B.D. -->
         <property name="connection.url">jdbc:mysql://localhost:3306/test_bd</property>
         <!-- User the B.D. -->
-        <property name="connection.username">root</property>
+        <property name="connection.username">usuario</property>
         <!-- Pass the B.D. -->
-        <property name="connection.password">Apolonia74</property>
+        <property name="connection.password">123456**</property>
         
 
         <!-- Dialect SQL -->
@@ -19,6 +19,7 @@
          
         <!-- Use XML-based mapping-->	
         <mapping resource="org/apb/pojo/Tramite.hbm.xml"/>
+        <mapping resource="org/apb/pojo/Alumno.hbm.xml"/>
         <!-- Use mapping based on annotations -->
         
     </session-factory>

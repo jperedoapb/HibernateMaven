@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated Jun 20, 2017 10:29:31 PM by Hibernate Tools 3.5.0.Final -->
+<!-- Generated Jun 21, 2017 3:31:06 PM by Hibernate Tools 3.5.0.Final -->
 <hibernate-mapping>
     <class name="org.apb.pojo.Tramite" table="TRAMITE">
         <id name="idtram" type="int">
             <column name="IDTRAM" />
-            <generator class="native" />
+            <generator class="assigned" />
         </id>
         <property name="tipoTram" type="java.lang.String">
             <column name="TIPOTRAM" />
