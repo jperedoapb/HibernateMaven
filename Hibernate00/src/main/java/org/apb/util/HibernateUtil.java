@@ -28,7 +28,7 @@ private static final SessionFactory sessionFactory = buildSessionFactory();
         }
         catch (Throwable ex) {
             // Make sure you log the exception, as it might be swallowed
-            System.err.println("*** Creación de SessionFactory falló." + ex);
+            System.err.println("*** Creacion de SessionFactory fallo.\n" + ex);
             throw new ExceptionInInitializerError(ex);
         }
     }
