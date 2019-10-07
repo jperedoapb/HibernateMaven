@@ -30,7 +30,7 @@ public class Test {
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		session.beginTransaction();
 		
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-dd-MM hh:mm:ss");
 		Date date = new Date();
 		System.out.println("La fecha es: " +  date);
 		// Crear una instancia de Tramite
