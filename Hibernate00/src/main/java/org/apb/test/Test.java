@@ -23,6 +23,8 @@ public class Test {
 	/**
 	 * @param args
 	 */
+	
+			
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Session session = HibernateUtil.getSessionFactory().openSession();
@@ -30,6 +32,7 @@ public class Test {
 		
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 		Date date = new Date();
+		System.out.println("La fecha es: " +  date);
 		// Crear una instancia de Tramite
 		Tramite tramite = new Tramite("Credito", new Timestamp(date.getTime()));
 		Alumno alumno = new Alumno("Alvaro", "Peredo", new Timestamp(date.getTime()));
